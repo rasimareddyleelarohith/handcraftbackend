@@ -19,6 +19,7 @@ public class Products {
     private Double price;
     private Integer quantity;
     private Integer stock;
+    @Column(length = 1000000)
     private String image;
     @Column(length = 1000)
     private String description;
